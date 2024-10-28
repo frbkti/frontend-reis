@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <title>reis</title>
+     <link rel="icon" href="/assets/img/logo.png" type="image/png">
+    </head>
+  <body>
+
+       <!-- navbar -->
+       <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#1E3A8A;">
+        <a class="navbar-brand" href="/index.html">
+            <img src="/assets/img/logo.png" alt="logo" style="width:40px;">
+        </a>
+    
+        <!-- Toggler/collapsing button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar content -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="/hotel/index.html">Hotel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="/tour/index.html">Tour</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="/car-bike/index.html">Car & Bike Rent</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="/event/index.html">Event</a>
+                </li>
+            </ul>
+    
+            <!-- Dropdown Profile -->
+            <div class="d-flex align-items-center ms-auto mr-3">
+                <span class="text-white me-2">Hello, Mr. Jack</span>
+                <div class="dropdown">
+                    <a class="navbar-brand "  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="/assets/img/p.jpg" width="30" height="30" class="rounded-circle" alt="Profile">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end mr-4"  aria-labelledby="navbarDropdown">
+                        <li class="dropdown-header">
+                            <img src="/assets/img/p.jpg" width="50" height="50" alt="Profile Image">
+                            <p class="mb-0">Mr. Jack</p>
+                            <small>+62 345 678 910<br>mrjack@gmail.com</small>
+                        </li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-star"></i> Point</a></li>
+                        <li><a class="dropdown-item" href="/profile/editprofile.html"><i class="bi bi-person"></i> Edit Profile</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-credit-card"></i> My Card</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-bag"></i> My Order</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-currency-dollar"></i> Refund</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-info-circle"></i> Info Promotion</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-key"></i> Set Password</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-power"></i> Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+ <!-- end navbar -->
+
+
+ 
+  <!-- banner gambar -->
+    
+  <div class="position-relative">
+    <!-- Banner image 1 -->
+    <img src="/assets/img/image_139.png" class="img-fluid w-100" alt="Responsive image" style="height: 300px; object-fit: cover;">
+    <!-- search -->
+  <!-- search -->
+  <div class="position-absolute search-container " style="top: 40%;" >
+      <form class="d-flex">
+        <div class="input-group mr-5">
+          <!-- Search input -->
+          <span class="input-group-text">
+            <i class="bi bi-search" ></i>
+          </span>
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          <!-- Icon inside input group -->
+        
+        </div>
+      </form>
+    </div>
+  </div>
+
+  
+  
+     <!-- end search -->
+     <!-- Floating Feature Section -->
+     <div class="container-sm position-absolute top-100% start-50 translate-middle p-3 bg-white rounded-3 shadow-lg" style="max-width: 1100px; z-index: 2;">
+        <div class="d-flex flex-wrap justify-content-center">
+          
+          <div class="text-center mx-3 mb-2">
+            <a href="/home.html" class="text-decoration-none text-black menu-item" id="home-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+              <img src="/assets/img/border_all_1.png" alt="Home" class="img-fluid mb-1" style="width: 25px;">
+              <p>Home</p>
+            </a>
+          </div>
+          
+          <div class="text-center mx-3 mb-2">
+            <a href="/hotel/index.html" class="text-decoration-none text-black menu-item" id="hotel-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+              <img src="/assets/img/mountain_city_11.png" alt="Hotel" class="img-fluid mb-1" style="width: 25px;">
+              <p class="m-0" style="font-size: 14px;">Hotel</p>
+            </a>
+          </div>
+          
+          <div class="text-center mx-3 mb-2">
+            <a href="/tour/index.html" class="text-decoration-none text-black menu-item" id="tour-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+              <img src="/assets/img/region_pin_1.png" alt="Tour" class="img-fluid mb-1" style="width: 25px;">
+              <p>Tour</p>
+            </a>
+          </div>
+      
+          <div class="text-center mx-3 mb-2">
+            <a href="/car-bike/index.html" class="text-decoration-none text-black menu-item" id="car-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+              <img src="/assets/img/car_rear_1.png" alt="Car & Bike Rent" class="img-fluid mb-1" style="width: 25px;">
+              <p>Car & Bike Rent</p>
+            </a>
+          </div>
+          
+          <div class="text-center mx-3 mb-2">
+            <a href="/event/index.html" class="text-decoration-none text-black menu-item" id="event-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+              <img src="/assets/img/guitar_electric_1.png" alt="Event" class="img-fluid mb-1" style="width: 25px;">
+              <p>Event</p>
+            </a>
+          </div>
+          
+          <div class="text-center mx-3 mb-2">
+            <a href="/airplane/index.html" class="text-decoration-none text-black menu-item" id="airplane-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+              <img src="/assets/img/plane_alt_1.png" alt="Airplane Ticket" class="img-fluid mb-1" style="width: 25px;">
+              <p>Airplane Ticket</p>
+            </a>
+          </div>
+      
+          <div class="text-center mx-3 mb-2">
+            <a href="/cinema/index.html" class="text-decoration-none text-black menu-item" id="airplane-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+                <img src="/assets/img/video_camera_alt_1.png" alt="Cinema" class="img-fluid mb-1" style="width: 25px;">
+              <p class="m-0" style="font-size: 14px;">Cinema</p>
+            </a>
+          </div>
+          
+          <div class="text-center mx-3 mb-2">
+            <a href="/villa-resort/index.html" class="text-decoration-none text-black menu-item" id="villa-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+              <img src="/assets/img/house_tree_1.png" alt="Villa & Resorts" class="img-fluid mb-1" style="width: 25px;">
+              <p>Villa & Resorts</p>
+            </a>
+          </div>
+          
+          <div class="text-center mx-3 mb-2">
+            <a href="/cruiseship-fasboat/index.html" class="text-decoration-none text-black menu-item" id="cruise-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+              <img src="/assets/img/ship_side_1.png" alt="Cruise Ship & Fast Boat" class="img-fluid mb-1" style="width: 25px;">
+              <p>Cruise Ship & Fast Boat</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- End of Floating Feature Section -->
+
+    <div class="container" style="padding: 80px; ">
+        <div class="row">
+          <!-- Sidebar -->
+          <div class="col-md-3 p-3 border mt-3">
+            <div class="d-flex align-items-center mb-4">
+                <!-- Tambahkan src gambar profil Google di sini -->
+                <img src="/assets/img/p.jpg" style="height: 40px; width: 40px;" alt="User Image" class="rounded-circle me-2">
+                <div>
+                    <strong>Mrjack@gmail.com</strong>
+                    <small class="d-block text-muted">Google</small>
+                </div>
+            </div>
+        
+            <nav class="nav flex-column">
+              <a class="nav-link active d-flex align-items-center border rounded text-white" 
+                 style="background-color: #1E3A8A; transition: background-color 0.3s, color 0.3s, transform 0.3s; border-radius: 5px;"
+                 onmouseover="this.style.backgroundColor='#374a9a'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff'; this.querySelector('span') ? this.querySelector('span').style.color='#ffffff' : ''; this.style.transform='translateX(5px)';"
+                 onmouseout="this.style.backgroundColor='#1E3A8A'; this.style.color=''; this.querySelector('i').style.color=''; this.querySelector('span') ? this.querySelector('span').style.color='' : ''; this.style.transform='';">
+                  <i class="bi bi-wallet2 me-2 " ></i><span>Point</span>
+              </a>
+              <a class="nav-link d-flex align-items-center text-black" href="/profile/editprofile.html" 
+                 style="transition: background-color 0.3s, color 0.3s, transform 0.3s; border-radius: 5px;"
+                 onmouseover="this.style.backgroundColor='#1E3A8A'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff'; this.querySelector('span') ? this.querySelector('span').style.color='#ffffff' : ''; this.style.transform='translateX(5px)';"
+                 onmouseout="this.style.backgroundColor=''; this.style.color=''; this.querySelector('i').style.color=''; this.querySelector('span') ? this.querySelector('span').style.color='' : ''; this.style.transform='';">
+                  <i class="bi bi-person me-2"></i><span>Profile</span> 
+              </a>
+              <a class="nav-link d-flex align-items-center text-black" href="/profile/mycard.html" 
+                 style="transition: background-color 0.3s, color 0.3s, transform 0.3s; border-radius: 5px;"
+                 onmouseover="this.style.backgroundColor='#1E3A8A'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff'; this.querySelector('span') ? this.querySelector('span').style.color='#ffffff' : ''; this.style.transform='translateX(5px)';"
+                 onmouseout="this.style.backgroundColor=''; this.style.color=''; this.querySelector('i').style.color=''; this.querySelector('span') ? this.querySelector('span').style.color='' : ''; this.style.transform='';">
+                  <i class="bi bi-card-list me-2"></i><span>My Card</span>
+              </a>
+              <a class="nav-link d-flex align-items-center text-black" href="/profile/myorder.html" 
+                 style="transition: background-color 0.3s, color 0.3s, transform 0.3s; border-radius: 5px;"
+                 onmouseover="this.style.backgroundColor='#1E3A8A'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff'; this.querySelector('span') ? this.querySelector('span').style.color='#ffffff' : ''; this.style.transform='translateX(5px)';"
+                 onmouseout="this.style.backgroundColor=''; this.style.color=''; this.querySelector('i').style.color=''; this.querySelector('span') ? this.querySelector('span').style.color='' : ''; this.style.transform='';">
+                  <i class="bi bi-bag-check me-2"></i><span>My Order</span>
+              </a>
+              <a class="nav-link d-flex align-items-center text-black" href="/profile/editprofile.html" 
+                 style="transition: background-color 0.3s, color 0.3s, transform 0.3s; border-radius: 5px;"
+                 onmouseover="this.style.backgroundColor='#1E3A8A'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff'; this.querySelector('span') ? this.querySelector('span').style.color='#ffffff' : ''; this.style.transform='translateX(5px)';"
+                 onmouseout="this.style.backgroundColor=''; this.style.color=''; this.querySelector('i').style.color=''; this.querySelector('span') ? this.querySelector('span').style.color='' : ''; this.style.transform='';">
+                  <i class="bi bi-receipt me-2"></i> <span>Refunds</span>
+              </a>
+              <a class="nav-link d-flex align-items-center text-black" href="/profile//discount.html" 
+                 style="transition: background-color 0.3s, color 0.3s, transform 0.3s; border-radius: 5px;"
+                 onmouseover="this.style.backgroundColor='#1E3A8A'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff'; this.querySelector('span') ? this.querySelector('span').style.color='#ffffff' : ''; this.style.transform='translateX(5px)';"
+                 onmouseout="this.style.backgroundColor=''; this.style.color=''; this.querySelector('i').style.color=''; this.querySelector('span') ? this.querySelector('span').style.color='' : ''; this.style.transform='';">
+                  <i class="bi bi-percent me-2"></i><span>Discount Information</span>
+              </a>
+              <a class="nav-link d-flex align-items-center text-black" href="/profile/setpassword.html" 
+                 style="transition: background-color 0.3s, color 0.3s, transform 0.3s; border-radius: 5px;"
+                 onmouseover="this.style.backgroundColor='#1E3A8A'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff'; this.querySelector('span') ? this.querySelector('span').style.color='#ffffff' : ''; this.style.transform='translateX(5px)';"
+                 onmouseout="this.style.backgroundColor=''; this.style.color=''; this.querySelector('i').style.color=''; this.querySelector('span') ? this.querySelector('span').style.color='' : ''; this.style.transform='';">
+                  <i class="bi bi-lock me-2"></i><span>Setting Password</span>
+              </a>
+              <a class="nav-link d-flex align-items-center text-black" href="/profile/myaccount.html" 
+                 style="transition: background-color 0.3s, color 0.3s, transform 0.3s; border-radius: 5px;"
+                 onmouseover="this.style.backgroundColor='#1E3A8A'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff'; this.querySelector('span') ? this.querySelector('span').style.color='#ffffff' : ''; this.style.transform='translateX(5px)';"
+                 onmouseout="this.style.backgroundColor=''; this.style.color=''; this.querySelector('i').style.color=''; this.querySelector('span') ? this.querySelector('span').style.color='' : ''; this.style.transform='';">
+                  <i class="bi bi-person me-2"></i><span>My Account</span>
+              </a>
+              <a class="nav-link d-flex align-items-center text-black" href="/index.html" 
+                 style="transition: background-color 0.3s, color 0.3s, transform 0.3s; border-radius: 5px;"
+                 onmouseover="this.style.backgroundColor='#1E3A8A'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff'; this.querySelector('span') ? this.querySelector('span').style.color='#ffffff' : ''; this.style.transform='translateX(5px)';"
+                 onmouseout="this.style.backgroundColor=''; this.style.color=''; this.querySelector('i').style.color=''; this.querySelector('span') ? this.querySelector('span').style.color='' : ''; this.style.transform='';">
+                  <i class="bi bi-box-arrow-right me-2"></i><span>Logout</span>
+              </a>
+          </nav>
+        </div>
+        
+    
+        <div class="col-md p-4"> 
+            <h2 class="mb-4">My Point</h2>
+            
+          
+              <!-- Bagian Kartu Poin dan Penawaran -->
+              <div class="row mt-2">
+                  <div class="col-md-6">
+                      <!-- Kartu Poin -->
+                      <div class="card bg-primary text-white p-3">
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div>
+                                  <h6>Points</h6>
+                                  <p class="fs-3 mb-0 ">100</p>
+                              </div>
+                              <div class="justify-content-end">
+                                <img src="/assets/img/koin.png" style="height:100px; width: 100px;" alt="offer image" class="img-fluid ">
+                            </div>
+                              <div>
+                                  <i class="bi bi-info-circle fs-4"></i>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <!-- Kartu Penawaran -->
+                      <div class="card bg-info text-white p-3">
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div>
+                                  <p>Ingin Tukar Points-mu?</p>
+                                  <button class="btn btn-light">Tukar Sekarang</button>
+                              </div>
+                              <div class="justify-content-center">
+                                  <img src="/assets/img/point.png" style="height:100px; width: 100px;" alt="offer image" class="img-fluid ">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+              <!-- Bagian Nav Tabs -->
+              <div class="row mt-4">
+                  <div class="col-12">
+                      <ul class="nav nav-tabs justify-content-between">
+                          <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Activity</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Expiring Soon</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Belum Aktif</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Expired</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Cancelled</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          
+              <!-- Bagian Konten -->
+              <div class="row mt-4">
+                  <div class="col-12 text-center">
+                      <img src="/assets/img/hk.png" style="height: 200px; height: 200px;" alt="No Points Image" class="img-fluid mb-3">
+                      <p class="fw-bold" style="font-size: 24px;">You currently don’t have REIS Points... yet.</p>
+                      <p class="text-muted" style="font-size: 14px;">Let's explore various ways to earn Points & enjoy the benefits!</p>
+                  </div>
+              </div>
+          </div>
+            
+
+            
+        </div>
+        
+        
+        
+        </div>
+        
+          
+        </div>
+      </div>
+
+
+<!-- Footer -->
+<footer class="footer" style="background-color: #1E3A8A; padding: 20px;">
+  <div class="container-fluid py-4 my-sm-0">
+    <div class="container">
+      <div class="row">
+        
+        <!-- About REIS -->
+        <div class="col-12 col-md-3 mb-3">
+          <h6 class="text-white">About REIS</h6>
+          <ul class="list-unstyled">
+            <li><a class="text-white" href="#">Help Center</a></li>
+            <li><a class="text-white" href="#">About Us</a></li>
+            <li><a class="text-white" href="#">Contact Us</a></li>
+            <li><a class="text-white" href="#">How to Book</a></li>
+          </ul>
+        </div>
+
+        <!-- Follow us on -->
+        <!-- Follow us on -->
+      <div class="col-12 col-md-3 mb-3">
+          <h6 class="text-white">Follow us on</h6>
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-white" href="#">
+                <i class="fab fa-whatsapp icon-black"></i> WhatsApp
+              </a>
+            </li>
+            <li>
+              <a class="text-white" href="#">
+                <i class="fab fa-instagram icon-black"></i> Instagram
+              </a>
+            </li>
+            <li>
+              <a class="text-white" href="#">
+                <i class="fab fa-tiktok icon-black"></i> TikTok
+              </a>
+            </li>
+            <li>
+              <a class="text-white" href="#">
+                <i class="fab fa-youtube icon-black"></i> YouTube
+              </a>
+            </li>
+            <li>
+              <a class="text-white" href="#">
+                <i class="fas fa-envelope icon-black"></i> Email
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Products -->
+        <div class="col-12 col-md-2 mb-3">
+          <h6 class="text-white">Products</h6>
+          <ul class="list-unstyled">
+            <li><a class="text-white" href="/hotel/index.html">Hotel</a></li>
+            <li><a class="text-white" href="/car-bike/index.html">Car & Bike Rent</a></li>
+            <li><a class="text-white" href="/tour/index.html">Tour</a></li>
+            <li><a class="text-white" href="/event/index.html">Event</a></li>
+            <li><a class="text-white" href="/airplane/index.html">Airplane Ticket</a></li>
+            <li><a class="text-white" href="/villa-resort/index.html">Villa and Resorts</a></li>
+            <li><a class="text-white" href="/cruiseship-fasboat/index.html">Cruise Ship & Fast Boat</a></li>
+            <li><a class="text-white" href="/cinema/index.html">Cinema</a></li>
+          </ul>
+        </div>
+
+        <!-- Payment Partners -->
+        <div class="col-12 col-md-2 mb-3">
+          <h6 class="text-white">Payment Partners</h6>
+          <div class="payment-partners d-flex flex-wrap">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_103.png" >
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_102.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_101.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_100.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_99.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_98.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_97.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_96.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_94.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_93.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_92.png">
+          </div>
+        </div>
+
+        <!-- Partners -->
+        <div class="col-12 col-md-2 mb-3">
+          <h6 class="text-white">Partners</h6>
+          <div class="partners d-flex flex-wrap">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_removebg_preview_1.png" alt="Studio Kami">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_removebg_preview_11.png" alt="Shucada">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_109.png" alt="Bali Kami">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->  
+
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/style.js"></script>
+  </body>
+</html>

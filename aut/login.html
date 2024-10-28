@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+    <!-- BEGIN: Head -->
+    <head>
+        <meta charset="utf-8">
+        <link href="/assets/img/logo.png" rel="shortcut icon">
+ 
+        <title>Login  admin</title>
+        <!-- BEGIN: CSS Assets-->
+        <link rel="stylesheet" href="/aut/dist/css/app.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <!-- END: CSS Assets-->
+
+    </head>
+    <!-- END: Head -->
+    <body class="login">
+        <div class="container sm:px-10">
+            <div class="block xl:grid grid-cols-2 gap-4">
+                <!-- BEGIN: Login Info -->
+                <div class="hidden xl:flex flex-col min-h-screen">
+            
+                    <div class="my-auto">
+                        <img  class="-intro-x w-1/2 -mt-16" src="/assets/img/logo.png">
+                        <div class="-intro-x text-white font-medium text-4xl leading-tight mt-10">
+                        Reservation Integrated System
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Login Info -->
+                <!-- BEGIN: Login Form -->
+                <div class="h-screen xl:h-auto flex py-5 xl:py-0 my-10 xl:my-0">
+                    <div class="my-auto mx-auto xl:ml-20 bg-white dark:bg-darkmode-600 xl:bg-transparent px-5 sm:px-8 py-8 xl:p-0 rounded-md shadow-md xl:shadow-none w-full sm:w-3/4 lg:w-2/4 xl:w-auto">
+                        <h2 class="intro-x font-bold text-2xl xl:text-3xl text-center xl:text-left">
+                            Sign In
+                        </h2>
+                        <div class="intro-x mt-8">
+                            <input type="text" class="intro-x login__input form-control py-3 px-4 block" placeholder="Email">
+                            <input type="password" class="intro-x login__input form-control py-3 px-4 block mt-4" placeholder="Password">
+                        </div>
+                        <div class="intro-x flex text-slate-600 dark:text-slate-500 text-xs sm:text-sm mt-4">
+                            <div class="flex items-center mr-auto">
+                                <input id="remember-me" type="checkbox" class="form-check-input border mr-2">
+                                <label class="cursor-pointer select-none" for="remember-me">Remember me</label>
+                            </div>
+                            <a href="">Forgot Password?</a> 
+                        </div>
+                        <div class="intro-x mt-5 xl:mt-8 text-center xl:text-left">
+                            <a href="/home.html" class="btn btn-primary py-3 px-4 w-full xl:w-32 xl:mr-3 align-top">Login</a>
+                            <a href="/aut/register.html" class="btn btn-outline-secondary py-3 px-4 w-full xl:w-32 mt-3 xl:mt-0 align-top">Register</a>
+                            
+                        </div>
+                       
+                        <div class="social-buttons">
+                        <div class="divider">
+                                    <span>Login or Register with</span>
+                                </div>
+                            <div class="social-button google-btn" onclick="window.location. href='/auth/redirect';">
+                                <img src="https://www.google.com/images/branding/product/ico/googleg_lodp.ico" alt=" google" > Sign in with Google
+                            </div>
+                            <div class="social-button facebook-btn" onclick="window.location.href='/auth/facebook';">
+                                <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook"> Sign in with Facebook
+                            </div>
+                            </div>
+                        </div>
+                </div>
+
+                    </div>
+
+
+                   
+
+                </div>
+                <!-- END: Login Form -->
+            </div>
+        </div>
+      
+        
+        
+        <!-- BEGIN: JS Assets-->
+        <script src="/aut/dist/js/app.js"></script>
+        <!-- END: JS Assets-->
+    </body>
+</html>

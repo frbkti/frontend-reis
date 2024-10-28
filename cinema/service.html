@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <title>reis</title>
+     <link rel="icon" href="/assets/img/logo.png" type="image/png">
+    </head>
+  <body>
+
+       <!-- navbar -->
+       <nav class="navbar navbar-expand-lg" heigth="61" style="background-color: #1E3A8A; height: 50px";>
+        <a class="navbar-brand" href="/index.html">
+            <img src="/assets/img/logo.png" width="80px" height="40px" class="img-fluid" alt="Responsive image">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="/hotel/index.html">Hotel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white"  href="/tour/index.html">Tour</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white"  href="/car-bike/index.html">Car Rent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white"  href="/event/index.html">Event</a>
+              </li>
+          </ul>
+          
+           
+          <a class="btn btn-outline-secondary my-2 my-sm-0 text-white mx-2" href="/aut/login.html">Login</a>
+          <a class="btn btn-light my-2 my-sm-0 mr-5" href="/aut/register.html">Register</a>
+        </div>
+      </nav>
+ <!-- end navbar -->
+
+
+ 
+  <!-- banner gambar -->
+    
+  <div class="position-relative">
+    <!-- Banner image 1 -->
+    <img src="/assets/img/image_139.png" class="img-fluid w-100" alt="Responsive image" style="height: 300px; object-fit: cover;">
+    <!-- search -->
+  <!-- search -->
+  <div class="position-absolute search-container " style="top: 40%;" >
+      <form class="d-flex">
+        <div class="input-group mr-5">
+          <!-- Search input -->
+          <span class="input-group-text">
+            <i class="bi bi-search" ></i>
+          </span>
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          <!-- Icon inside input group -->
+        
+        </div>
+      </form>
+    </div>
+  </div>
+
+  
+  
+     <!-- end search -->
+     <!-- Floating Feature Section -->
+     <div class="container-sm position-absolute top-100% start-50 translate-middle p-3 bg-white rounded-3 shadow-lg" style="max-width: 1100px; z-index: 2;">
+      <div class="d-flex flex-wrap justify-content-center">
+        
+        <div class="text-center mx-3 mb-2">
+          <a href="/home.html" class="text-decoration-none text-black menu-item" id="home-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+            <img src="/assets/img/border_all_1.png" alt="Home" class="img-fluid mb-1" style="width: 25px;">
+            <p>Home</p>
+          </a>
+        </div>
+        
+        <div class="text-center mx-3 mb-2">
+          <a href="/hotel/index.html" class="text-decoration-none text-black menu-item" id="hotel-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+            <img src="/assets/img/mountain_city_11.png" alt="Hotel" class="img-fluid mb-1" style="width: 25px;">
+            <p class="m-0" style="font-size: 14px;">Hotel</p>
+          </a>
+        </div>
+        
+        <div class="text-center mx-3 mb-2">
+          <a href="/tour/index.html" class="text-decoration-none text-black menu-item" id="tour-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+            <img src="/assets/img/region_pin_1.png" alt="Tour" class="img-fluid mb-1" style="width: 25px;">
+            <p>Tour</p>
+          </a>
+        </div>
+    
+        <div class="text-center mx-3 mb-2">
+          <a href="/car-bike/index.html" class="text-decoration-none text-black menu-item" id="car-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+            <img src="/assets/img/car_rear_1.png" alt="Car & Bike Rent" class="img-fluid mb-1" style="width: 25px;">
+            <p>Car & Bike Rent</p>
+          </a>
+        </div>
+        
+        <div class="text-center mx-3 mb-2">
+          <a href="/event/index.html" class="text-decoration-none text-black menu-item" id="event-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+            <img src="/assets/img/guitar_electric_1.png" alt="Event" class="img-fluid mb-1" style="width: 25px;">
+            <p>Event</p>
+          </a>
+        </div>
+        
+        <div class="text-center mx-3 mb-2">
+          <a href="/airplane/index.html" class="text-decoration-none text-black menu-item" id="airplane-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+            <img src="/assets/img/plane_alt_1.png" alt="Airplane Ticket" class="img-fluid mb-1" style="width: 25px;">
+            <p>Airplane Ticket</p>
+          </a>
+        </div>
+    
+        <div class="text-center mx-3 mb-2">
+          <a href="/cinema/index.html" class="text-decoration-none text-black menu-item" id="cinema-link" style="border: 1px solid black; border-radius: 10px; background-color: #d6ebff; width: 55px; position: relative; top: -5px;" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+            <img src="/assets/img/video_camera_alt_1.png" alt="Cinema" class="img-fluid mb-1" style="width: 25px;">
+            <p class="m-0" style="font-size: 14px;">Cinema</p>
+          </a>
+        </div>
+        
+        <div class="text-center mx-3 mb-2">
+          <a href="/villa-resort/index.html" class="text-decoration-none text-black menu-item" id="villa-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+            <img src="/assets/img/house_tree_1.png" alt="Villa & Resorts" class="img-fluid mb-1" style="width: 25px;">
+            <p>Villa & Resorts</p>
+          </a>
+        </div>
+        
+        <div class="text-center mx-3 mb-2">
+          <a href="/cruiseship-fasboat/index.html" class="text-decoration-none text-black menu-item" id="cruise-link" onmouseover="setActive(this)" onmouseout="removeActive(this)">
+            <img src="/assets/img/ship_side_1.png" alt="Cruise Ship & Fast Boat" class="img-fluid mb-1" style="width: 25px;">
+            <p>Cruise Ship & Fast Boat</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      
+      <!-- End of Floating Feature Section -->
+
+
+ 
+
+ 
+    <!-- content -->
+    <div class="container mt-5" style="padding: 50px;">
+    <div class="ml-5">
+        <h2 >
+        <img src="/assets/img/v.png" alt="Play video" class="ml-3 img-fluid"> XXI Denpasar Cineplex</h2>
+        <hr class="ml-5 fw-bold">
+        <p class="ml-5 fw-bold" style="font-size: 20px;"> ShowTimes</p>
+      <div class="d-flex flex-wrap  ml-5 mt-2">
+        <!-- Kumpulan Tombol Filter Genre -->
+        <button type="button" class="btn btn-outline-primary  me-2 ml-2" onclick="filterMovies('all', this)" > 12 Jul <br> Mon</button>
+        <button type="button" class="btn btn-outline-primary me-2" onclick="filterMovies('Action', this)" >13  Jul <br> Tues</button>
+        <button type="button" class="btn btn-outline-primary me-2" onclick="filterMovies('Romantic', this)">14 Jul <br> Wed</button>
+        <button type="button" class="btn btn-outline-primary me-2" onclick="filterMovies('Horor', this)">15 Jul <br> Thurs</button>
+        <button type="button" class="btn btn-outline-primary me-2" onclick="filterMovies('Comedy', this)">16 Jul <br> Frid</button>
+        <button type="button" class="btn btn-outline-primary me-2" onclick="filterMovies('Drama', this)">17 Jul <br> Sat</button>
+      </div>
+    
+      <!-- Pesan No Result -->
+      <div id="noResult" class="text-center my-4 p-4  d-none">
+        <h5 class="text-muted text-center">
+          <span style="display: inline-block; width: 40%; border-bottom: 1px solid #ddd; vertical-align: middle;"></span>
+          <span>No Result</span>
+          <span style="display: inline-block; width: 40%; border-bottom: 1px solid #ddd; vertical-align: middle;"></span>
+        </h5>
+        
+      </div>
+    
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ml-5 mt-2" id="movieContainer">
+        <!-- Card 1 (Horor) -->
+        <div class="col movie-card" data-genre="Horor" data-genre="Comedy">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/skl.png" height="200" alt="Sekawan Limo">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Sekawan Limo</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">Studio 1</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class=" fw-bold mb-0" style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 (Horor) -->
+        <div class="col movie-card" data-genre="Horor">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/ps.png" height="200" alt="Project Silence">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Project Silence</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">Studio 2</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class=" fw-bold mb-0"  style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 (Romantic) -->
+        <div class="col movie-card" data-genre="Romantic">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/rm.png" height="200" alt="Romeo Ingkar Janji">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Romeo Ingkar Janji</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">Studio 3</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class=" fw-bold mb-0"  style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 (Comedy) -->
+        <div class="col movie-card" data-genre="Comedy">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/bis.png" height="200" alt="Bangsal Isolasi">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Bangsal Isolasi</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">Studio 1</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class=" fw-bold mb-0"  style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- Card 5 (Horor) -->
+        <div class="col movie-card" data-genre="Horor">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/pusaka.png" height="200" alt="Pusaka">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Pusaka</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">Studio 2</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class=" fw-bold mb-0"  style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary" >Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 (CRomantic) -->
+        <div class="col movie-card" data-genre="Romantic">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/idm.png" height="200" alt="Ipar adalah maut">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Ipar Adalah  Maut</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">Studo 3</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class=" fw-bold mb-0"  style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 1 (Horor) -->
+        <div class="col movie-card" data-genre="Horor" data-genre="Comedy">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/skl.png" height="200" alt="Sekawan Limo">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Sekawan Limo</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">Banyuwangi</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class=" fw-bold mb-0"  style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 (Horor) -->
+        <div class="col movie-card" data-genre="Horor">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/ps.png" height="200" alt="Project Silence">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Project Silence</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">Jember</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class="fw-bold mb-0"  style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 (Romantic) -->
+        <div class="col movie-card" data-genre="Romantic">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/rm.png" height="200" alt="Romeo Ingkar Janji">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Romeo Ingkar Janji</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">Tabanan-Bali</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class=" fw-bold mb-0"  style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 (Comedy) -->
+        <div class="col movie-card" data-genre="Comedy">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/bis.png" height="200" alt="Bangsal Isolasi">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Bangsal Isolasi</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">Denpasar-Bali</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class=" fw-bold mb-0"  style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- Card 5 (Horor) -->
+        <div class="col movie-card" data-genre="Horor">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/pusaka.png" height="200" alt="Pusaka">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Pusaka</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">probolinggo</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class=" fw-bold mb-0"  style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 (CRomantic) -->
+        <div class="col movie-card" data-genre="Romantic">
+          <div class="card border-0  border-shadow" style="border-radius: 15px;">
+            <img class="card-img-top" src="/assets/img/idm.png" height="200" alt="Ipar adalah maut">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-0">Ipar Adalah  Maut</h5>
+              <p class="text-muted mb-1">22 Jul 2024 - 22 Aug 2024</p>
+              <p class="fw-bold mb-1">Lumajang</p>
+              <div class="mb-2">
+                <span class="badge bg-light text-dark border me-1">10:00</span>
+                <span class="badge bg-light text-dark border me-1">11:30</span>
+                <span class="badge bg-light text-dark border me-1">14:30</span>
+                <span class="badge bg-light text-dark border">18:30</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0">120 Minute</p>
+                  <h5 class=" fw-bold mb-0"  style="color: coral;">IDR. 30.000</h5>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+       
+        </div>
+
+        
+    
+        <!-- Tambahkan lebih banyak card di sini jika diperlukan -->
+      </div>
+    </div>
+    
+   
+    
+    
+    
+    <!-- end content -->
+
+<!-- Footer -->
+<footer class="footer" style="background-color: #1E3A8A; padding: 20px;">
+  <div class="container-fluid py-4 my-sm-0">
+    <div class="container">
+      <div class="row">
+        
+        <!-- About REIS -->
+        <div class="col-12 col-md-3 mb-3">
+          <h6 class="text-white">About REIS</h6>
+          <ul class="list-unstyled">
+            <li><a class="text-white" href="#">Help Center</a></li>
+            <li><a class="text-white" href="#">About Us</a></li>
+            <li><a class="text-white" href="#">Contact Us</a></li>
+            <li><a class="text-white" href="#">How to Book</a></li>
+          </ul>
+        </div>
+
+        <!-- Follow us on -->
+        <!-- Follow us on -->
+      <div class="col-12 col-md-3 mb-3">
+          <h6 class="text-white">Follow us on</h6>
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-white" href="#">
+                <i class="fab fa-whatsapp icon-black"></i> WhatsApp
+              </a>
+            </li>
+            <li>
+              <a class="text-white" href="#">
+                <i class="fab fa-instagram icon-black"></i> Instagram
+              </a>
+            </li>
+            <li>
+              <a class="text-white" href="#">
+                <i class="fab fa-tiktok icon-black"></i> TikTok
+              </a>
+            </li>
+            <li>
+              <a class="text-white" href="#">
+                <i class="fab fa-youtube icon-black"></i> YouTube
+              </a>
+            </li>
+            <li>
+              <a class="text-white" href="#">
+                <i class="fas fa-envelope icon-black"></i> Email
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Products -->
+        <div class="col-12 col-md-2 mb-3">
+          <h6 class="text-white">Products</h6>
+          <ul class="list-unstyled">
+            <li><a class="text-white" href="/hotel/index.html">Hotel</a></li>
+            <li><a class="text-white" href="/car-bike/index.html">Car & Bike Rent</a></li>
+            <li><a class="text-white" href="/tour/index.html">Tour</a></li>
+            <li><a class="text-white" href="/event/index.html">Event</a></li>
+            <li><a class="text-white" href="/airplane/index.html">Airplane Ticket</a></li>
+            <li><a class="text-white" href="/villa-resort/index.html">Villa and Resorts</a></li>
+            <li><a class="text-white" href="/cruiseship-fasboat/index.html">Cruise Ship & Fast Boat</a></li>
+            <li><a class="text-white" href="/cinema/index.html">Cinema</a></li>
+          </ul>
+        </div>
+
+        <!-- Payment Partners -->
+        <div class="col-12 col-md-2 mb-3">
+          <h6 class="text-white">Payment Partners</h6>
+          <div class="payment-partners d-flex flex-wrap">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_103.png" >
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_102.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_101.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_100.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_99.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_98.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_97.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_96.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_94.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_93.png">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_92.png">
+          </div>
+        </div>
+
+        <!-- Partners -->
+        <div class="col-12 col-md-2 mb-3">
+          <h6 class="text-white">Partners</h6>
+          <div class="partners d-flex flex-wrap">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_removebg_preview_1.png" alt="Studio Kami">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_removebg_preview_11.png" alt="Shucada">
+            <img class="img-fluid me-2 mb-2" style="height: 40px;" src="/assets/img/image_109.png" alt="Bali Kami">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->  
+
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/assets/js/style.js"></script>
+  </body>
+</html>
